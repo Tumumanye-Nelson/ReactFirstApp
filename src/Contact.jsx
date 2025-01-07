@@ -1,9 +1,9 @@
-import React from "react";
 
 const Contact = () =>{
     return(
-<div>
-    <p>This is contact page</p>
+<div className="cont">
+    <h1 className="contact-header">Contact us please for more information</h1>
+
 </div>
     );
 }

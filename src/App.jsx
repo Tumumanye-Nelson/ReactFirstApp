@@ -11,7 +11,6 @@ import Experiences from "./Experiences";
 import Blogs from "./Blogs";
 import Destination from "./Destination";
 function App() {
-  const [isDark, setDark] = useState(true);
 
 
   return (
