@@ -51,14 +51,15 @@
     height: 100vh;
     background-repeat: no-repeat;
 }
-.blogs{
+.blogs {
     background-image: url(/src/images/666.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    color: white; /* Correct syntax */
 }
+
 .pys{
     padding: 60px;
     text-align: center;
@@ -96,3 +97,48 @@
     padding: 10px;
     text-decoration: solid;
  }
+
+ .homeh4{
+    padding: 100px;
+    color: gold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+ }
+ .description p{
+    text-align: center;
+  margin: -30px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 1em;
+ }
+ div a {
+    padding: 0; /* Remove padding from the <a> element to avoid interference */
+    margin: 0; /* Remove margin to align properly */
+}
+
+.tourism-link {
+    background-color: #ffd11a;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+    left: 10px;
+
+    /* Align the text inside the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Optional styles for the text */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
