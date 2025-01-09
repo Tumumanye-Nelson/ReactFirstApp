@@ -1,6 +1,6 @@
 function Destination(){
     return(
-<div>
+<div className="destination">
 
 </div>
     );

@@ -1,9 +1,19 @@
 
-import React from "react";
 const Service = () =>{
     return(
-        <div>
-            <p>This is the service page</p>
+        <div className="service">
+            <p>our services as the company</p>
+            <div className="h44">
+                <h1 className="h5">The services we offer to customers </h1>
+            <ol className="oll">
+                <li>Transportation</li>
+                <li>Accommadation</li>
+                <li>wildlife tracting</li>
+                <li>Education about animal behavior</li>
+                <li>Free wifi to the tourists </li>
+            </ol>
+
+            </div>
         </div>
     )
 }

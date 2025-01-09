@@ -2,7 +2,7 @@
 function Blogs(){
     return(
 <div className="blogs">
-    <p className="pys">This is the Blogs page</p>
+    <p className="ps">This is the Blogs page</p>
     <div className="connect">
     <ol className="oly">connect with wide underline</ol>
 
