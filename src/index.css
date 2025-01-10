@@ -481,3 +481,104 @@ font-family: 'Courier New', Courier, monospace;
 .contact-details p {
     color: #ccc; /* Lighter grey for better readability */
 }
+/* General Styles for the Destination Component */
+.destination {
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* White background */
+    color: #333; /* Dark text for contrast */
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    max-width: 800px;
+    margin: 20px auto; /* Centers the component */
+}
+
+/* Heading Styles */
+.desti {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #28a745; /* Green theme for tourism */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+ .pii{
+    color:red
+}
+
+/* Highlights Section */
+.highlights h2,
+.services h2 {
+    color: #17a2b8; /* Blue-green accent for section headers */
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.highlights ul,
+.services ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding: 20px; /* Adds space inside the border */
+    text-align: left;
+    max-width: 600px;
+    border: 2px solid white; /* White border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional: Semi-transparent dark background */
+    color: white; /* Ensures text is visible on dark background */
+}
+
+.services ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.highlights ul li,
+.services ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact h2 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    color: #dc3545; /* Red accent for contact details */
+}
+
+.contact p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Button Styles (Optional for Interactivity) */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .destination {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .desti {
+        font-size: 2rem;
+    }
+
+    .highlights ul,
+    .services ul {
+        max-width: 100%; /* Adjust for smaller screens */
+    }
+}
