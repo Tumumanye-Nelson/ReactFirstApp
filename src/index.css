@@ -212,33 +212,57 @@
     height: 100vh;
     color: white;
  }
- .service p{
+ .service {
     text-align: center;
     padding: 60px;
-    margin: 60px;
+    margin: 60px auto;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 80%;
+}
 
- }
- .h44{
-    padding: -800px;
+.h44 {
+    padding: 20px;
+    margin: 0 auto;
+}
 
- }
- .h5{
+.h5 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
- }
- .oll{
+    margin-bottom: 20px;
+}
+
+.oll {
     padding: 20px;
-    margin: 20px;
- }
- .oll li{
-    text-align: left;
+    margin: 0 auto;
+    background-color: blue; /* Light background for better visibility */
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.oll li {
+    text-align: left; /* Align text to the left */
     text-decoration: none;
-    color: #ffd11a;
-font-family: 'Courier New', Courier, monospace;
- }
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0; /* Add spacing between items */
+    font-size: 1.2em; /* Slightly increase font size for readability */
+}
+
+/* To center the list on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Add a light page background */
+}
+
+ 
  .contact-header{
     text-align: center;
     padding: 30px;
