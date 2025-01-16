@@ -10,7 +10,7 @@ const About = () =>{
             </div> 
             <div className="h4">
                 <h1 className="h3">The services we offer to customers </h1>
-            <ol className="">
+            <ol className="h12">
                 <li>Transportation</li>
                 <li>Accommadation</li>
                 <li>wildlife tracting</li>

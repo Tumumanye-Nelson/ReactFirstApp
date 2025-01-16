@@ -180,27 +180,44 @@
     text-align: center;
     text-decoration: solid;
     text-transform: uppercase;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
+    text-decoration-line: underline overline;
+    text-decoration-style:solid;
+    text-decoration-color: white, green;
+    text-decoration-thickness: 5px;
+    text-shadow: 4px 5px green;
 }
 .di{
     padding: -40px;
     margin: 30px;
 }
 .di p{
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
     font-size: 20px;
+    font-weight: 100px;
+    font-size: 1em;
+    background-color: white;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: italic;
+    
 }
 .h4{
     padding: 30px;
     margin: 30px;
+    background-color: #007bff;
 }
 .h3{
     text-align: left;
     color: white;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    margin: 20px;
 
 }
 .ol li{
@@ -208,7 +225,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     border: 2px solid green;
+    background-color: #007bff;
 }
+
  .service{
     margin: 0;
     padding: 0;
@@ -562,7 +581,8 @@ body {
     font-size: 1.1rem;
 }
 
-.highlights ul li,
+.highlights          gin: '20px 0',
+ul li,
 .services ul li {
     margin: 10px 0;
     font-size: 1.1rem;
@@ -612,3 +632,10 @@ button:hover {
         max-width: 100%; /* Adjust for smaller screens */
     }
 }
+/* Correct the class name in CSS */
+.imgs {
+    width: 20px; /* Update this width to something more appropriate if needed */
+    padding: 20px;
+    margin: 20px;
+  }
+  

@@ -1,16 +1,9 @@
-import photo from './assets/uganda.jpg';
 
 const Home = () => {
   return (
     <div 
       className="home-container" 
-      style={{
-        backgroundImage: `url(${photo})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh',
-        color: 'white'
-      }}
+     
     >
       <h1 className='homeh4'>Uganda is the best tourism destination</h1>
       <div className="description">
