@@ -3,7 +3,7 @@ const Contact = () => {
         <div className="cont">
             <h1 className="contact-header">Contact Us for More Information</h1>
             <div className="contact-description">
-                We have different sources to help you connect with us. Feel free to reach out!
+               < p className="good"> We have different sources to help you connect with us. Feel free to reach out!</p>
             </div>
             <div className="contact-details">
                 <h2>📞 Get in Touch</h2>

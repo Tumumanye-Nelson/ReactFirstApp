@@ -287,22 +287,7 @@ body {
     background-color: #f0f0f0; /* Add a light page background */
 }
 
- 
- .contact-header{
-    text-align: center;
-    padding: 30px;
-    color: #ffd11a;
- }
- .destination{
-    margin: 0;
-    padding: 0;
-    background-image: url(/src/images/pawe.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    color: white;
 
- }
  .tours{
     margin: 0;
     padding: 0;
@@ -463,21 +448,48 @@ body {
     color: #fff; /* White text for contrast */
     min-height: 100vh;
 }
+ 
+.contact-header{
+    text-align: center;
+    padding: 30px;
+    color: #ffd11a;
+ }
+ .destination{
+    margin: 0;
+    padding: 0;
+    background-image: url(/src/images/pawe.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:white;
 
+ }
+ .good{
+    font-weight: bolder;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+    font-style: italic;
+    color: #007BFF;
+ }
 .contact-header {
     color: #FFD700; /* Bright gold for visibility */
     text-align: center;
     font-size: 2em;
 }
 
-.contact-description {
-    margin: 10px 0;
-    text-align: center;
-    font-size: 1.2em;
-    color: #ccc; /* Light grey for subtle contrast */
-}
 
-.contact-details, .contact-form {
+
+.contact-details{
+    margin: 20px 0;
+    color: purple;
+}
+.contact-details, h2{
+    color: red;
+    margin: 20px;
+    padding: 20px;
+}
+.contact-form {
     margin: 20px 0;
     color: #fff;
 }
@@ -524,7 +536,11 @@ body {
 }
 
 .contact-details h2 {
-    color: #FFD700; /* Match the button and header color */
+    color: red; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 .contact-details p {
