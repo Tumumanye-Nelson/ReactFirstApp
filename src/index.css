@@ -558,7 +558,15 @@ body {
     max-width: 800px;
     margin: 20px auto; /* Centers the component */
 }
-
+pii{
+    color: red;
+}
+.peer, p{
+    color: red;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
 /* Heading Styles */
 .desti {
     font-size: 2.5rem;
@@ -567,9 +575,7 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
 }
- .pii{
-    color:red
-}
+
 
 /* Highlights Section */
 .highlights h2,
@@ -577,6 +583,8 @@ body {
     color: #17a2b8; /* Blue-green accent for section headers */
     margin-top: 30px;
     font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration-line: underline;
 }
 
 .highlights ul,
@@ -597,7 +605,7 @@ body {
     font-size: 1.1rem;
 }
 
-.highlights          gin: '20px 0',
+.highlights          
 ul li,
 .services ul li {
     margin: 10px 0;

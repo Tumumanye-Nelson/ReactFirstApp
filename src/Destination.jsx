@@ -1,10 +1,13 @@
 
+
 function Destination() {
     return (
         <div className="destination">
             <h1 className="desti">Our Destinations</h1>
             <p className="pii">
+                <div className="peer">
                 Welcome to our tourism company located in the heart of Kampala, Uganda! We specialize in providing unforgettable travel experiences that showcase the beauty, culture, and adventure Uganda has to offer.
+                </div>
             </p>
             <section className="highlights">
                 <h2>Explore Top Destinations:</h2>
