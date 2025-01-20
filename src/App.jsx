@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Home from "./Home";
 import About from "./About";
 import Service from "./Service";
@@ -10,23 +9,21 @@ import Tours from "./Tours";
 import Experiences from "./Experiences";
 import Blogs from "./Blogs";
 import Destination from "./Destination";
+
 function App() {
-
-
   return (
     <div className="H">
       <NavBar />
-    
       <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="About" element={<About />} />
-        <Route path="Service" element={<Service />} />
-        <Route path="Contact" element={<Contact />} />
-        <Route path="Blogs" element={<Blogs/>}/>
-        <Route path="Destination" element={<Destination/>}/>
-        <Route path="Experiences" element={<Experiences/>}/>
-        <Route path="Tours" element={<Tours/>}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/destination" element={<Destination />} />
+        <Route path="/experiences" element={<Experiences />} />
+        <Route path="/tours" element={<Tours />} />
       </Routes>
     </div>
   );
