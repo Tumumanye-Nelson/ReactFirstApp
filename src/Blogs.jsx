@@ -10,7 +10,7 @@ function Blogs(){
     </div>
 <div className="build">
     <ol>build bussiness</ol>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa est repellendus maxime delectus minus nostrum accusantium fugiat quidem enim, facere quam voluptas similique culpa suscipit harum optio ratione illum? Non.</p>
+    <p> Discover the Pearl of Africa</p>
 </div>
     </div>
     );
