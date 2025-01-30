@@ -198,11 +198,11 @@
     font-size: 20px;
     font-weight: 100px;
     font-size: 1em;
-    background-color: white;
     margin: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  sans-serif;
     text-align: center;
     font-style: italic;
+    font-weight: 1000;
     
 }
 .h4{
@@ -257,6 +257,7 @@
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 20px;
 }
+
 
 .oll {
     padding: 20px;
@@ -908,14 +909,7 @@ body {
         color:white;
     
      }
-     .good{
-        font-weight: bolder;
-        font-size: 1em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration-line: underline;
-        font-style: italic;
-        color: #007BFF;
-     }
+    
     .contact-header {
         color: #FFD700; /* Bright gold for visibility */
         text-align: center;
@@ -978,6 +972,9 @@ body {
     .contact-form button:hover {
         background-color: #FFC107; /* Slightly lighter gold on hover */
     }
+    .pr{
+        color:#007BFF;
+    }
     
     .contact-details h2 {
         color: red; 
@@ -988,7 +985,7 @@ body {
     }
     
     .contact-details p {
-        color: #ccc; /* Lighter grey for better readability */
+        color:green; /* Lighter grey for better readability */
     }
     /* General Styles for the Destination Component */
     .destination {
@@ -1583,9 +1580,10 @@ body {
         font-weight: bolder;
         font-size: 1em;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration-line: underline;
         font-style: italic;
         color: #007BFF;
+        font-weight: 1000;
+        text-align: center;
      }
     .contact-header {
         color: #FFD700; /* Bright gold for visibility */
@@ -1795,14 +1793,7 @@ body {
     color:white;
 
  }
- .good{
-    font-weight: bolder;
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration-line: underline;
-    font-style: italic;
-    color: #007BFF;
- }
+
 .contact-header {
     color: #FFD700; /* Bright gold for visibility */
     text-align: center;

@@ -11,7 +11,7 @@ const Contact = () => {
                 <p>Email: info@tourismcompany.com</p>
 
                 <h2>📍 Visit Us</h2>
-                <p>123 Adventure Lane, Wanderlust City, TravelLand 56789</p>
+                <p className="pr">123 Adventure Lane, Wanderlust City, TravelLand 56789</p>
             </div>
             <div className="contact-form">
                 <h2>📄 Send Us a Message</h2>
