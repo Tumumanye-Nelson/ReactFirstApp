@@ -210,16 +210,7 @@
     margin: 30px;
     background-color: #007bff;
 }
-.h3{
-    text-align: left;
-    color: white;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-decoration-line: underline;
-    margin: 20px;
 
-}
 .ol li{
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -655,16 +646,7 @@ body {
         margin: 30px;
         background-color: #007bff;
     }
-    .h3{
-        text-align: left;
-        color: white;
-        text-transform: uppercase;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        text-decoration-line: underline;
-        margin: 20px;
-    
-    }
+  
     .ol li{
         color:white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1091,6 +1073,7 @@ body {
         .desti {
             font-size: 2rem;
         }
+     
     
         .highlights ul,
         .services ul {
@@ -1285,6 +1268,7 @@ body {
         background-size: cover;
         height: 100vh;
         color: white;
+        width: 100%;
     }
     .h1about{
         padding: 30px;
@@ -1328,8 +1312,11 @@ body {
         text-transform: uppercase;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        text-decoration-line: underline;
         margin: 20px;
+        text-align: left;
+        padding: 25px;
+        margin: 25px;
+       
     
     }
     .ol li{
@@ -1396,7 +1383,6 @@ body {
         min-height: 100vh;
         margin: 0;
         font-family: sans-serif;
-        background-color: #f0f0f0; /* Add a light page background */
     }
     
     
@@ -1626,6 +1612,9 @@ body {
         border-radius: 5px;
         background-color: #333; /* Darker grey for input background */
         color: #fff; /* White text */
+    }
+    .h3{
+
     }
     
     .contact-form input::placeholder, .contact-form textarea::placeholder {
