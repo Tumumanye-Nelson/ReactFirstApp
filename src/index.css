@@ -52,35 +52,42 @@
     background-repeat: no-repeat;
 }
 .blogs {
-    background-image: url(/src/images/666.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #000;
+   
+    
     color: #333; /* Darker color for better contrast */
     font-family: Arial, sans-serif;
 }
 
 .ps {
-    padding: 60px;
+    padding: 0px;
     text-align: center;
     text-transform: uppercase;
-    color: red; /* Dark teal for contrast */
+    color:#e6f7ff; /* Dark teal for contrast */
     font-size: 2em;
 }
 
 .connect {
-    margin: 30px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     color: #6a1b9a; /* Deep purple for better visibility */
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for clarity */
     border-radius: 8px;
+    background-color: #000;
+}
+.connect h2{
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
 }
 
 .connect p {
     margin: 10px;
     text-decoration: none; /* Removed 'solid', which isn't valid */
-    color: #4a148c; /* Rich purple for better visibility */
+    color: green;
+    text-align: left; /* Rich purple for better visibility */
 }
 
 .connect ol {
@@ -90,13 +97,18 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .build {
-    margin: 30px;
-    padding: 20px;
-    color: #1b5e20; /* Dark green for a fresh and clear look */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
-    border-radius: 8px;
+  background-color: #000;
+}
+.build h2{
+    margin: 10px;
+    padding: 10px;
+    color:red; /* Dark green for a fresh and clear look */
+  font-size: 32px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  
 }
 
 .build ol {
@@ -2011,6 +2023,36 @@ button:hover {
   #blogs {
     background-color: #fbe6ff; 
   }
-  
+  .tips{
+    color: white;
+    font-size: 19px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 800;
+    font-style: italic;
+    display: grid;
+    justify-content: left;
+   
+  }
+  .tips ul{
+    list-style:decimal-leading-zero;
+    letter-spacing: -3.5;
+    line-height: 1.6;
+  }
+
+  .tips h2{
+    color: #1b5e20;
+    padding: 0px;
+    margin: opx;
+    font-size: 22px;
+    font-weight: 1000;
+
+  }
+  .connect{
+
+  }
+  .blogs{
+
+  }
 
   
